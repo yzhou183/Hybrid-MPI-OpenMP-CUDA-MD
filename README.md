@@ -13,27 +13,6 @@ This project focuses on enhancing a Molecular Dynamics (MD) simulation program b
 
 ---
 
-## Visualization
-
-### **1. Simulation Results**
-The simulation output includes particle trajectories over time. Below is an example of a visualized trajectory generated from the simulation data:
-
-![Particle Trajectories](images/particle_trajectories.png)
-
-### **2. Performance Analysis**
-To evaluate the optimization, performance charts are generated to show speedup and efficiency:
-
-#### **Speedup vs. Number of Particles**
-![Speedup](images/speedup_chart.png)
-
-#### **GPU Utilization**
-![GPU Utilization](images/gpu_utilization.png)
-
-- **Insights**:
-  - The CUDA-accelerated version shows significant performance improvement compared to the original implementation.
-  - GPU utilization is maximized by optimizing memory access patterns and kernel execution.
-
----
 
 ## Motivation
 
