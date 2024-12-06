@@ -1,6 +1,6 @@
 # Hybrid MPI + OpenMP + CUDA MD Program
 
-This project focuses on enhancing the performence of Molecular Dynamics (MD) simulation program by leveraging a hybrid parallel computing model that integrates **MPI**, **OpenMP**, and **CUDA**. TThese simulations are computationally intensive, especially during force calculations, where the complexity grows quadratically with the number of particles.
+This project focuses on enhancing the performence of Molecular Dynamics (MD) simulation program by leveraging a hybrid parallel computing model that integrates **MPI**, **OpenMP**, and **CUDA**. These simulations are computationally intensive, especially during force calculations, where the complexity grows quadratically with the number of particles.
 
 ---
 
