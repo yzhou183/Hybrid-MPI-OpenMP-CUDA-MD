@@ -24,8 +24,8 @@ Molecular Dynamics simulations are computationally intensive, especially for lar
 ### **1. Overall Architecture**
 The program uses a hybrid parallel model:
 - **MPI**: Distributes the simulation domain across multiple processes. Each MPI process is responsible for a specific spatial region.
-- **OpenMP**: Parallelizes force calculations and other tasks within each MPI process using threads.
-- **CUDA**: Offloads the most computationally intensive parts, such as force calculations, to the GPU.
+- **OpenMP**: Parallelizes force calculations and other tasks within each MPI process using threads for efficient CPU utilization.
+- **CUDA**: Offloads the most computationally intensive parts, such as force calculations, to the GPU for massive parallelism..
 
 ### **2. Key Components**
 - **Force Calculation**:
