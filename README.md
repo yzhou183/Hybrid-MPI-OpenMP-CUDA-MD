@@ -93,6 +93,9 @@ The program uses a hybrid parallel model:
 5. **Extensibility**:
    - A modular and maintainable codebase that can be further extended to include more complex interactions or additional features.
 
+For optimizing MPI communication to overlap it with computation, and I will use profiling tools like nvprof to identify bottlenecks.
+By the end of this project, I expect to achieve significant speedups, demonstrate scalability for large systems, and create a modular, maintainable program.
+
 ---
 
 ## Getting Started
